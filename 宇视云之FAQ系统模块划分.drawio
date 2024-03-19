@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T05:53:12.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="45VU3IW9R9Zsn10FNvz2" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T05:57:40.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="lbD-j2lQA-K2uP6DBbPQ" version="24.0.7" type="github">
   <diagram name="第 1 页" id="gmOqz8iHxDGcK4bJCsog">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="jMHJWPtod-mKoQ7cYotK-5" value="问题推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jMHJWPtod-mKoQ7cYotK-6" value="关联与配置关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-6" value="关联与关联配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="155" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jMHJWPtod-mKoQ7cYotK-7" value="问答交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
