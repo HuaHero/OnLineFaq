@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T04:01:43.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.0.7" etag="wOBLHqrdzfcg02HdLxil" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T05:41:12.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="HHF0OAuE1ITdKy_2e3Ha" version="24.0.7" type="github">
   <diagram name="第 1 页" id="gmOqz8iHxDGcK4bJCsog">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="480" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-2" value="搜索" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-3" value="存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-4" value="分类与标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-5" value="问题推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-6" value="关联与配置关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-7" value="问答交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-8" value="国际化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMHJWPtod-mKoQ7cYotK-9" value="可扩展富媒体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
