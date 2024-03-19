@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T11:01:11.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JlVVaAgS5IkF3QbKCvr8" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T11:01:31.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="rleRqjEuED1o03dwN8oR" version="24.0.7" type="github">
   <diagram name="第 1 页" id="6x4LvMagdbzSouyHg_lp">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-38" value="富媒体文档维护&lt;div&gt;（增删改查）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KTRBiwCCIsHWIs7wHr18-30">
+        <mxCell id="KTRBiwCCIsHWIs7wHr18-38" value="智能机器人维护&lt;div&gt;（增删改查）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="KTRBiwCCIsHWIs7wHr18-30">
           <mxGeometry x="20" y="170" width="121" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KTRBiwCCIsHWIs7wHr18-39" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.579;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KTRBiwCCIsHWIs7wHr18-30" source="KTRBiwCCIsHWIs7wHr18-38">
