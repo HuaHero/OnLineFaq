@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T09:20:46.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="9n5SO4VlbG2d_T9reEOT" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T09:25:09.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WN_6F0etgU2lddUE3FYr" version="24.0.7" type="github">
   <diagram name="第 1 页" id="6x4LvMagdbzSouyHg_lp">
     <mxGraphModel dx="1940" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
             <mxPoint x="411.60628166160086" y="149.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UmQ7iVuRs1jFdSwfaIHv-7" value="问题反馈&lt;div&gt;模板维护&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="KTRBiwCCIsHWIs7wHr18-30">
+        <mxCell id="UmQ7iVuRs1jFdSwfaIHv-7" value="问题反馈&lt;div style=&quot;font-size: 14px;&quot;&gt;模板维护&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="KTRBiwCCIsHWIs7wHr18-30">
           <mxGeometry x="6.907801418439717" y="80" width="137.00143870314085" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UmQ7iVuRs1jFdSwfaIHv-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="KTRBiwCCIsHWIs7wHr18-30" target="UmQ7iVuRs1jFdSwfaIHv-7">
@@ -137,11 +137,14 @@
         <mxCell id="KTRBiwCCIsHWIs7wHr18-69" value="APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="430" y="330" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-70" value="" style="endArrow=block;html=1;rounded=0;labelBackgroundColor=default;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;entryX=-0.011;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="KTRBiwCCIsHWIs7wHr18-67" edge="1">
+        <mxCell id="KTRBiwCCIsHWIs7wHr18-70" value="" style="endArrow=block;html=1;rounded=0;labelBackgroundColor=default;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;entryX=-0.011;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" target="KTRBiwCCIsHWIs7wHr18-67" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="520" as="sourcePoint" />
             <mxPoint x="410" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UmQ7iVuRs1jFdSwfaIHv-9" value="&lt;b&gt;说明&lt;/b&gt;： 标绿用例为要实现内容，标蓝用例待讨论，白色背景用例为暂时不用实现的功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=#981b5d;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="810" width="627" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
