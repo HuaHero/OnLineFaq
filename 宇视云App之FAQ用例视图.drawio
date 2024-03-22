@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T09:17:36.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="MQRXUdFLfToL8NVZAqlC" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T09:19:24.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JRGBGws6kMc-6T2_G-oG" version="24.0.7" type="github">
   <diagram name="第 1 页" id="6x4LvMagdbzSouyHg_lp">
     <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="UmQ7iVuRs1jFdSwfaIHv-5" value="导出用户反馈" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="KTRBiwCCIsHWIs7wHr18-30">
           <mxGeometry x="352.2997083009354" y="179.9985714285715" width="127.73695247520085" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="UmQ7iVuRs1jFdSwfaIHv-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.806;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" edge="1" parent="KTRBiwCCIsHWIs7wHr18-30">
+        <mxCell id="UmQ7iVuRs1jFdSwfaIHv-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.806;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="KTRBiwCCIsHWIs7wHr18-30" source="UmQ7iVuRs1jFdSwfaIHv-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="431.2441742654509" y="190" as="sourcePoint" />
             <mxPoint x="411.60628166160086" y="149.75" as="targetPoint" />
@@ -101,15 +101,6 @@
         <mxCell id="KTRBiwCCIsHWIs7wHr18-22" value="搜索FAQ" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="502" y="374" width="121" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-23" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;查看FAQ信息&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="502" y="507" width="121" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-24" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="KTRBiwCCIsHWIs7wHr18-23" target="KTRBiwCCIsHWIs7wHr18-22" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="642" y="460" as="sourcePoint" />
-            <mxPoint x="802" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KTRBiwCCIsHWIs7wHr18-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" target="KTRBiwCCIsHWIs7wHr18-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="562" y="300" as="sourcePoint" />
@@ -120,21 +111,21 @@
           <mxGeometry x="640" y="374" width="121" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KTRBiwCCIsHWIs7wHr18-48" value="支持同义词搜索" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="617" width="121" height="70" as="geometry" />
+          <mxGeometry x="450" y="495" width="121" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KTRBiwCCIsHWIs7wHr18-49" value="支持同音词搜索" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="572" y="617" width="121" height="70" as="geometry" />
+          <mxGeometry x="600" y="495" width="121" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-50" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=0.264;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KTRBiwCCIsHWIs7wHr18-48" target="KTRBiwCCIsHWIs7wHr18-23" edge="1">
+        <mxCell id="KTRBiwCCIsHWIs7wHr18-50" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="KTRBiwCCIsHWIs7wHr18-48" target="KTRBiwCCIsHWIs7wHr18-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="510.5" y="600" as="sourcePoint" />
-            <mxPoint x="550" y="560" as="targetPoint" />
+            <mxPoint x="533.944" y="573.01" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KTRBiwCCIsHWIs7wHr18-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.579;entryY=1;entryDx=0;entryDy=0;exitX=0.281;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;fontSize=14;" parent="1" source="KTRBiwCCIsHWIs7wHr18-49" target="KTRBiwCCIsHWIs7wHr18-23" edge="1">
+        <mxCell id="KTRBiwCCIsHWIs7wHr18-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.628;entryY=1.014;entryDx=0;entryDy=0;exitX=0.281;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;fontSize=14;" parent="1" source="KTRBiwCCIsHWIs7wHr18-49" target="KTRBiwCCIsHWIs7wHr18-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="660" y="600" as="sourcePoint" />
-            <mxPoint x="701.5" y="563" as="targetPoint" />
+            <mxPoint x="572.0590000000002" y="577" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KTRBiwCCIsHWIs7wHr18-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" parent="1" edge="1">
