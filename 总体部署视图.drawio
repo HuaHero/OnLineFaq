@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T10:28:37.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="WLPy2ykFAinjikfUEN5G" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T10:29:23.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="cHb8IgSxRfR45SMcxDP4" version="24.2.5" type="github">
   <diagram name="第 1 页" id="jeTXBLm-H6XMwneKPCaH">
     <mxGraphModel dx="1335" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,6 +29,9 @@
         </mxCell>
         <mxCell id="sWEV5LaynbLMHfX0gyIc-14" value="UCS云" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWEV5LaynbLMHfX0gyIc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sWEV5LaynbLMHfX0gyIc-15" target="sWEV5LaynbLMHfX0gyIc-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sWEV5LaynbLMHfX0gyIc-15" value="DevOps" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="126.77999999999997" y="490" width="60" height="30" as="geometry" />
