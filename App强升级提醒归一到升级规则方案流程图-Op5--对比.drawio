@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T13:17:25.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="If_nx5mrRduK91F-eNrs" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T13:17:53.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="g5Vzhwbe1MWVlaN4g7AT" version="24.2.5" type="github">
   <diagram name="第 1 页" id="SnEiPAsqYIaOKTm-W5p2">
     <mxGraphModel dx="915" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,8 +9,8 @@
             <mxPoint x="321" y="133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nd6yBEO4HvQz4fjfClLw-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="270" y="40" width="100" height="60" as="geometry" />
+        <mxCell id="nd6yBEO4HvQz4fjfClLw-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="270" y="50" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nd6yBEO4HvQz4fjfClLw-9" value="使用云侧新接口获取云升级检测结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="260" y="200" width="120" height="70" as="geometry" />
