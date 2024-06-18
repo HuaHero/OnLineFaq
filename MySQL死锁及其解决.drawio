@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:54:09.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="ky8PqlUkGCtjlR3q_WAG" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:58:06.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="zbphSwviVwPm-Eg4JOvC" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1510" dy="1849" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry x="795" y="385.4999999999999" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1778" value="两个或多个事务在执行过程中由于争夺资源造成相互等待，若无外力干涉则无法继续执行" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="994" y="364" width="150" height="98" as="geometry" />
+          <mxGeometry x="994" y="364" width="308" height="98" as="geometry" />
         </mxCell>
         <mxCell id="1779" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1778" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -207,18 +207,24 @@
           <mxGeometry x="178" y="1400" width="336" height="168" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1823" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1820" target="1ObwX4HFOrdPuMfML4rI-1822">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="628" />
+              <mxPoint x="1120" y="560" />
+              <mxPoint x="1167" y="560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1828" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1820" target="1ObwX4HFOrdPuMfML4rI-1826">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1106" y="579" />
+              <mxPoint x="1106" y="646" />
               <mxPoint x="1106" y="666" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1820" value="6、死锁产生原因及其解决途径" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="896" y="543.5" width="150" height="70" as="geometry" />
+          <mxGeometry x="868" y="611.25" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1821" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;" edge="1" parent="1" source="1749" target="1ObwX4HFOrdPuMfML4rI-1820">
           <mxGeometry relative="1" as="geometry">
@@ -228,10 +234,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1825" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1822" target="1ObwX4HFOrdPuMfML4rI-1824">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="539" />
+              <mxPoint x="1400" y="539" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1822" value="表级锁死锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1162" y="473.5" width="150" height="70" as="geometry" />
+          <mxGeometry x="1169" y="522.5" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1824" value="原因：不同事务对表的加锁顺序不一样&lt;div&gt;解决方案：（1）尽量避免同时操作多个表；（2）实在需要同时操作多个表时，都要按同样的顺序加锁&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="1428" y="417" width="182" height="146" as="geometry" />
@@ -311,8 +322,17 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1841" value="页面RWLock(保护页面的读取和修改)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1176" y="1288" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1845" value="策略：&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（1）&lt;/span&gt;持有事务锁（行锁/表锁）时，可以等待获取页面锁&lt;/div&gt;&lt;div&gt;（2）持有页面锁时，不能等待获取事务锁&lt;/div&gt;&lt;div&gt;总之：去掉相互等待&lt;/div&gt;&lt;div&gt;因此：在持有页锁时，如果需要等待行锁，则释放页锁，然后等待行锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;此时，行锁获取没有任何锁保护，因此加上行锁之后，记录可能已经被并发修改。因此，此时要重新加回页面锁，重新判断记录的状态，重新在页面锁的保护下，对记录加锁。&lt;/div&gt;&lt;div&gt;如果此时记录未被并发修改，那么第二次加锁能够很快完成，因为已经持有了相同模式的锁。但是，如果记录已经被并发修改，那么，就有可能导致死锁问题。&lt;/div&gt;&lt;div&gt;在数据库系统中，死锁的检测和解决通常是通过**锁管理器（Lock Manager）**来实现的。&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#3700CC;strokeWidth=3;fillColor=#6a00ff;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1845" value="策略：&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（1）&lt;/span&gt;持有事务锁（行锁/表锁）时，可以等待获取页面锁&lt;/div&gt;&lt;div&gt;（2）持有页面锁时，不能等待获取事务锁&lt;/div&gt;&lt;div&gt;总之：去掉相互等待&lt;/div&gt;&lt;div&gt;因此：在持有页锁时，如果需要等待行锁，则释放页锁，然后等待行锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;此时，行锁获取没有任何锁保护，因此加上行锁之后，记录可能已经被并发修改。因此，此时要重新加回页面锁，重新判断记录的状态，重新在页面锁的保护下，对记录加锁。&lt;/div&gt;&lt;div&gt;如果此时记录未被并发修改，那么第二次加锁能够很快完成，因为已经持有了相同模式的锁。但是，如果记录已经被并发修改，那么，就有可能导致死锁问题。&lt;/div&gt;&lt;div&gt;在数据库系统中，死锁的检测和解决通常是通过**锁管理器（Lock Manager）**来实现的。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;（1）当一个事务请求某个数据页的锁时，锁管理器会检查当前锁的状态以及其他事务是否持有或等待相同的锁。&lt;/div&gt;&lt;div&gt;（2）如果存在潜在的死锁风险，系统会通过死锁检测算法来检测并解决死锁。其中，常用的死锁检测算法包括等待图（Wait-for graph）算法和超时算法。&lt;/div&gt;&lt;div&gt;在数据库系统的实现中，锁管理器会维护一个锁表（Lock Table），用于记录当前数据页的锁状态以及事务之间的关系。&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#3700CC;strokeWidth=3;fillColor=#6a00ff;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="602" y="1372" width="896" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1851" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1849" target="1ObwX4HFOrdPuMfML4rI-1850">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1849" value="8、死锁概念" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="795" y="475.9999999999999" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1850" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="994" y="476" width="308" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
