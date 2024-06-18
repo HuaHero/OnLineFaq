@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T06:23:57.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="WW0PIB4uRKSw9AqS6IVo" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T06:24:12.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="D6vaXajuahO9aaIMldma" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1066" dy="721" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="876" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,7 +173,7 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1818" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1807" target="1ObwX4HFOrdPuMfML4rI-1813">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1807" value="隔离级别（SQL92定制的标准，对锁和MVCC的使用的封装）与锁关系:&lt;div&gt;首先选择隔离级别，当隔离级别不够时再在开发中使用具体锁&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=14;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1807" value="5、隔离级别（SQL92定制的标准，对锁和MVCC的使用的封装）与锁关系:&lt;div&gt;首先选择隔离级别，当隔离级别不够时再在开发中使用具体锁&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=14;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="224" width="150" height="112" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1808" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#b85450;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#23445D;spacing=5;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#f8cecc;" edge="1" parent="1" source="1749" target="1ObwX4HFOrdPuMfML4rI-1807">
