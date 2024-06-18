@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:58:23.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="2t1QlHxj-SfPdglOJ80K" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T08:01:02.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="VEgxgk9-VEkMzLMewDi0" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1510" dy="1849" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry x="795" y="385.4999999999999" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1778" value="两个或多个事务在执行过程中由于争夺资源造成相互等待，若无外力干涉则无法继续执行" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="994" y="364" width="308" height="98" as="geometry" />
+          <mxGeometry x="994" y="364" width="308" height="84" as="geometry" />
         </mxCell>
         <mxCell id="1779" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1778" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -210,8 +210,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="628" />
-              <mxPoint x="1120" y="560" />
-              <mxPoint x="1167" y="560" />
+              <mxPoint x="1120" y="576" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -236,16 +235,16 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1825" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1822" target="1ObwX4HFOrdPuMfML4rI-1824">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1400" y="539" />
-              <mxPoint x="1400" y="539" />
+              <mxPoint x="1386" y="558" />
+              <mxPoint x="1386" y="558" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1822" value="表级锁死锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1169" y="522.5" width="150" height="70" as="geometry" />
+          <mxGeometry x="1169" y="541.25" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1824" value="原因：不同事务对表的加锁顺序不一样&lt;div&gt;解决方案：（1）尽量避免同时操作多个表；（2）实在需要同时操作多个表时，都要按同样的顺序加锁&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1428" y="417" width="182" height="146" as="geometry" />
+          <mxGeometry x="1456" y="438" width="182" height="146" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1830" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1826" target="1ObwX4HFOrdPuMfML4rI-1829">
           <mxGeometry relative="1" as="geometry" />
@@ -331,8 +330,8 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1849" value="8、建议" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="795" y="475.9999999999999" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1850" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="994" y="476" width="308" height="42" as="geometry" />
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1850" value="1、一致性排序（加锁顺序）&lt;div&gt;2、间隙锁空易造成列锁，如果幻读等影响不大，将db&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="994" y="462" width="308" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
