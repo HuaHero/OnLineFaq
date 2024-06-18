@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:32:57.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="WkJ3Xnoy_oxCROsiiPR3" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:33:25.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="46HyjRMXjBnvjkviXxj_" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1510" dy="1022" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -270,8 +270,27 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1833" value="原因3：两个会话加锁顺序不一致&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;解决方案：（1）&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;尽量以相同的顺序来访问索引 和表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;(2)&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;程序以批量方式处理数据的时候，如果事先对数据排序，保证每个线程按固定的顺序来处理记录，也可以大大降低出现死锁的可能；&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="1428" y="854" width="420" height="107.5" as="geometry" />
         </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1842" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1836" target="1ObwX4HFOrdPuMfML4rI-1839">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1843" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1836" target="1ObwX4HFOrdPuMfML4rI-1840">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1106" y="945" />
+              <mxPoint x="1106" y="1148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1844" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1836" target="1ObwX4HFOrdPuMfML4rI-1841">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1106" y="945" />
+              <mxPoint x="1106" y="1323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1836" value="7、Innodb预防死锁策略" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="910" y="756" width="150" height="70" as="geometry" />
+          <mxGeometry x="896" y="910" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1838" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;" edge="1" parent="1" target="1ObwX4HFOrdPuMfML4rI-1836">
           <mxGeometry relative="1" as="geometry">
