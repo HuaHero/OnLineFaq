@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:52:42.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="WhAdAL3ZvFfJM2beyB0q" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:54:09.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="ky8PqlUkGCtjlR3q_WAG" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1510" dy="1849" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
           <mxGeometry x="1008" y="280" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1819" value="1、MyISAM不支持事务，Innodb支持事务；&lt;div style=&quot;font-size: 16px;&quot;&gt;2、MyISAM是表级锁，Innodb默认是行级锁&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1372" width="336" height="168" as="geometry" />
+          <mxGeometry x="178" y="1400" width="336" height="168" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1823" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1820" target="1ObwX4HFOrdPuMfML4rI-1822">
           <mxGeometry relative="1" as="geometry" />
@@ -311,8 +311,8 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1841" value="页面RWLock(保护页面的读取和修改)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1176" y="1288" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1845" value="策略：&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（1）&lt;/span&gt;持有事务锁（行锁/表锁）时，可以等待获取页面锁&lt;/div&gt;&lt;div&gt;（2）持有页面锁时，不能等待获取事务锁&lt;/div&gt;&lt;div&gt;总之：去掉相互等待&lt;/div&gt;&lt;div&gt;因此：在持有页锁时，如果需要等待行锁，则释放页锁，然后等待行锁&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#3700CC;strokeWidth=3;fillColor=#6a00ff;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="826" y="1372" width="280" height="154" as="geometry" />
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1845" value="策略：&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（1）&lt;/span&gt;持有事务锁（行锁/表锁）时，可以等待获取页面锁&lt;/div&gt;&lt;div&gt;（2）持有页面锁时，不能等待获取事务锁&lt;/div&gt;&lt;div&gt;总之：去掉相互等待&lt;/div&gt;&lt;div&gt;因此：在持有页锁时，如果需要等待行锁，则释放页锁，然后等待行锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;此时，行锁获取没有任何锁保护，因此加上行锁之后，记录可能已经被并发修改。因此，此时要重新加回页面锁，重新判断记录的状态，重新在页面锁的保护下，对记录加锁。&lt;/div&gt;&lt;div&gt;如果此时记录未被并发修改，那么第二次加锁能够很快完成，因为已经持有了相同模式的锁。但是，如果记录已经被并发修改，那么，就有可能导致死锁问题。&lt;/div&gt;&lt;div&gt;在数据库系统中，死锁的检测和解决通常是通过**锁管理器（Lock Manager）**来实现的。&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#3700CC;strokeWidth=3;fillColor=#6a00ff;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="602" y="1372" width="896" height="378" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
