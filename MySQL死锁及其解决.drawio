@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:35:24.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="3bv1eZ-xe_9tbfRyP271" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:35:54.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="PWVvVzpVQrk6getG5qFb" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1510" dy="1022" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1839" value="事务锁(行锁\表锁)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1176" y="966" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1840" value="Mutex" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1840" value="Mutex（保护内部的共享变量操作）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1176" y="1113" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1841" value="页面RWLock(保护页面的读取和修改)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
