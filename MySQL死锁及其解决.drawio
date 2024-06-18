@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:42:10.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Z7e52CoQgrusHBdMv5TV" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:47:49.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="AwtEQbV__09PBvdpStkI" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1510" dy="1022" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1510" dy="1849" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,10 +29,10 @@
           <mxGeometry x="215" y="385.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1755" value="写锁/排他锁&lt;div style=&quot;font-size: 16px;&quot;&gt;（加了X锁，在本次事务完成写之前，其它不能读和写）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="4" y="378" width="164" height="67.5" as="geometry" />
+          <mxGeometry x="4" y="364" width="164" height="81.5" as="geometry" />
         </mxCell>
         <mxCell id="1756" value="读锁/共享锁/S锁&lt;div style=&quot;font-size: 16px;&quot;&gt;（加了S锁可以读，可以追加S锁，但不能修改）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="65" y="238" width="159" height="76.5" as="geometry" />
+          <mxGeometry x="65" y="210" width="159" height="104.5" as="geometry" />
         </mxCell>
         <mxCell id="1757" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" target="1763" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -77,13 +77,13 @@
           <mxGeometry x="360" y="224" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1765" value="悲观锁&lt;div style=&quot;font-size: 16px;&quot;&gt;（数据更新时先锁定再修改，包括共享锁/排他锁，是悲观锁的具体实现）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="574" y="98" width="173" height="85.5" as="geometry" />
+          <mxGeometry x="574" y="98" width="173" height="112" as="geometry" />
         </mxCell>
         <mxCell id="1766" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#F08705;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" source="1764" target="1765" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1767" value="乐观锁&lt;div style=&quot;font-size: 16px;&quot;&gt;（常通过比较数据版本或时间戳，数据更新时做冲突检测,冲突了则提示错误）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="345" y="14" width="150" height="96.5" as="geometry" />
+          <mxGeometry x="345" y="-14" width="150" height="124.5" as="geometry" />
         </mxCell>
         <mxCell id="1768" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#F08705;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" source="1764" target="1767" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry x="645" y="785" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1791" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;意向锁&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;（意向读锁或意向写锁---表级锁，有对应锁一定有对应意向锁，但反之不一定）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry y="462" width="178" height="81.5" as="geometry" />
+          <mxGeometry y="462" width="178" height="98" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1793" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#E85642;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" edge="1" parent="1" source="1753">
           <mxGeometry relative="1" as="geometry">
@@ -154,7 +154,7 @@
           <mxGeometry x="113" y="1120" width="164" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1799" value="Gap Lock&lt;div style=&quot;font-size: 16px;&quot;&gt;(锁定索引记录间隙(不包括记录本身)，确保索引记录的间隙不变。（GapLock是范围锁，RR隔离级别支持。RC隔离级别不支持）&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;可用于防止幻读，避免在索引中间插入数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="297" y="1120" width="224" height="126" as="geometry" />
+          <mxGeometry x="297" y="1120" width="224" height="182" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1800" value="Next-key Lock&lt;div style=&quot;font-size: 16px;&quot;&gt;(record lock + gap lock, 左开右闭区间)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="706" y="1120" width="150" height="56" as="geometry" />
@@ -289,8 +289,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1836" value="7、Innodb预防死锁策略&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;每16KB一个页面，对页面读取时加S锁，对页面修改时加X锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;具体：&lt;/div&gt;&lt;div&gt;（1）修改一个记录时，先找到对应页；&lt;/div&gt;&lt;div&gt;（2）对页加X锁（RWLock）,然后在页内寻找记录；&lt;/div&gt;&lt;div&gt;(3)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="826" y="826" width="220" height="280" as="geometry" />
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1836" value="7、Innodb预防死锁策略&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;每16KB一个页面，对页面读取时加S锁，对页面修改时加X锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;具体：&lt;/div&gt;&lt;div&gt;（1）修改一个记录时，先找到对应页；&lt;/div&gt;&lt;div&gt;（2）对页加X锁（RWLock）,然后在页内寻找记录；&lt;/div&gt;&lt;div&gt;(3)持有页锁的前提下，对满足条件的事务加事务锁行锁（RecordLock、GapLock或Next-key Lock）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#2D7600;strokeWidth=3;fillColor=#60a917;fontFamily=Helvetica;fontSize=16;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="826" y="756" width="220" height="350" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1838" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;" edge="1" parent="1" target="1ObwX4HFOrdPuMfML4rI-1836">
           <mxGeometry relative="1" as="geometry">
