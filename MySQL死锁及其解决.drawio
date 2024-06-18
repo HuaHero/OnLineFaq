@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T06:40:45.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="X3h7uMULf-DJj4ZUZe0t" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:28:07.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="W3QyFvpEBuCXPWdcHLh6" version="24.4.13" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1294" dy="876" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1510" dy="1022" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,26 +34,35 @@
         <mxCell id="1756" value="读锁/共享锁/S锁&lt;div style=&quot;font-size: 16px;&quot;&gt;（加了S锁可以读，可以追加S锁，但不能修改）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="65" y="238" width="159" height="76.5" as="geometry" />
         </mxCell>
-        <mxCell id="1757" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" source="1760" target="1763" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1757" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" target="1763" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="377.5999999999997" y="632.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1758" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" source="1760" target="1762" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1758" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" target="1762" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446.02739726027403" y="632.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1759" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" source="1760" target="1761" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1759" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;" parent="1" target="1761" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509" y="623.8333333333335" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1760" value="2、锁的粒度及其优缺点" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="495" y="570.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="431" y="570.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1835" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1761" target="1ObwX4HFOrdPuMfML4rI-1789">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1761" value="页级锁（每次锁相邻的一组记录）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="695" y="650.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="568" y="650.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1782" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1762" target="1ObwX4HFOrdPuMfML4rI-1781">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1762" value="行级锁&lt;div style=&quot;font-size: 16px;&quot;&gt;应用在InnoDB引擎中&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="495" y="716.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="342" y="716.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1780" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="1763" target="1ObwX4HFOrdPuMfML4rI-1779">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1763" value="表级锁&lt;div style=&quot;font-size: 16px;&quot;&gt;应用在MyISAM、InnoDB及BDB引擎中&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="295" y="650.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="221" y="650.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1764" value="3、从性能来看（宏观实现上看）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="360" y="224" width="150" height="60" as="geometry" />
@@ -95,25 +104,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1779" value="开销小，加锁快" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="98" y="630.5" width="150" height="41.5" as="geometry" />
+          <mxGeometry x="24" y="630.5" width="150" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1781" value="开销大，加锁慢" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="630" y="854" width="150" height="42" as="geometry" />
+          <mxGeometry x="477" y="854" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1784" value="粒度大，冲突概率高，并发度最低" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="98" y="686" width="150" height="41.5" as="geometry" />
+          <mxGeometry x="24" y="686" width="150" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1787" value="粒度小，冲突概念低，并发度最高" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="365" y="854" width="150" height="42" as="geometry" />
+          <mxGeometry x="212" y="854" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1788" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.606;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="1762" target="1ObwX4HFOrdPuMfML4rI-1787">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1789" value="粒度及并发度介于表级与行级锁之间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="780" y="785" width="150" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1790" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.654;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="1761" target="1ObwX4HFOrdPuMfML4rI-1789">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="645" y="785" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1791" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;意向锁&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;（意向读锁或意向写锁---表级锁，有对应锁一定有对应意向锁，但反之不一定）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry y="462" width="178" height="81.5" as="geometry" />
@@ -127,33 +133,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ObwX4HFOrdPuMfML4rI-1802" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1794" target="1ObwX4HFOrdPuMfML4rI-1800">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1ObwX4HFOrdPuMfML4rI-1802" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1794">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="1118" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1806" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1794" target="1ObwX4HFOrdPuMfML4rI-1797">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1794" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;4、InnoDB引擎中3种行级锁形式（都是对索引项数据的加锁）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1022" width="150" height="60" as="geometry" />
+          <mxGeometry x="357" y="1022" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1796" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacing=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1762">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="569.41" y="942.5" as="sourcePoint" />
-            <mxPoint x="569.41" y="1024.5" as="targetPoint" />
+            <mxPoint x="416.40999999999997" y="942.5" as="sourcePoint" />
+            <mxPoint x="416.40999999999997" y="1024.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1797" value="Record Lock&lt;div style=&quot;font-size: 16px;&quot;&gt;(锁定单个行记录,RC\RR隔离级别都支持)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="266" y="1120" width="164" height="70" as="geometry" />
+          <mxGeometry x="113" y="1120" width="164" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1799" value="Gap Lock&lt;div style=&quot;font-size: 16px;&quot;&gt;(锁定索引记录间隙(不包括记录本身)，确保索引记录的间隙不变。（GapLock是范围锁，RR隔离级别支持。RC隔离级别不支持）&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;可用于防止幻读，避免在索引中间插入数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1120" width="224" height="126" as="geometry" />
+          <mxGeometry x="297" y="1120" width="224" height="126" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1800" value="Next-key Lock&lt;div style=&quot;font-size: 16px;&quot;&gt;(record lock + gap lock, 左开右闭区间)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#64bbe2;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1120" width="150" height="56" as="geometry" />
+          <mxGeometry x="706" y="1120" width="150" height="56" as="geometry" />
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1805" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1794">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="1120" as="targetPoint" />
+            <mxPoint x="432" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1ObwX4HFOrdPuMfML4rI-1814" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="1ObwX4HFOrdPuMfML4rI-1807" target="1ObwX4HFOrdPuMfML4rI-1810">
